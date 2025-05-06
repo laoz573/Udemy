@@ -60,13 +60,38 @@ h2{
     grid-row: 2;
 }
 
+.main-text .p1{
+    border: 1px solid #000;
+    border-radius:10px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.main-text .button_back{
+    width: 50px;
+    border: 1px solid #000;
+    border-radius:10px;
+    text-align: center;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
 .SNS{
-    grid-column:1;
-    grid-row: 4;
     margin:0 auto;
 }
 
+.SNS .SNS_Logo{
+    width: 282px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
 .footer{
-    grid-column:1;
-    grid-row: 5;
+    background-color: #aaa;
+}
+
+.footer .footer_title{
+    color: #fff;
+    
 }
