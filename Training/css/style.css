@@ -93,5 +93,16 @@ h2{
 
 .footer .footer_title{
     color: #fff;
-    
+    margin: 10px 0 20px 40px;
+}
+
+.footer .footer_textbox{
+    margin-left: 40px;
+    display: flex;
+    width: 550px;
+    justify-content: space-between;
+}
+
+.footer .footer_text{
+    width: 230px;
 }
