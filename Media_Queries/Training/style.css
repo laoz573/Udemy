@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+/*iPhone用の設定*/
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80px 150px 300px 150px 80px;
+    gap: 20px;
+}
+
+.header {
+    background-color: #eedcb3;
+}
+
+.article {
+    background-color: #FFBF00;
+}
+
+.main {
+    background-color: #00ffff;
+}
+
+.aside {
+    background-color: #FF99B2;
+}
+
+.footer {
+    background-color: #eedcb3;
+}
