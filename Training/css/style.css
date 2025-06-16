@@ -152,7 +152,7 @@ h2 {
 
 
 /*iPadの設定*/
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 600px) {
 
 p {
     font-size: 16px;
@@ -181,7 +181,7 @@ p {
 
 .main {
     grid-template-columns: 4.79% 1fr 4.79% 1fr 4.79%;
-
+    margin-bottom: 6%;
 }
 
 h2 {
@@ -193,24 +193,27 @@ h2 {
     color: #726F6F;
 }
 
+.main {
+    gap: 20px 0;
+}
+
 .photo {
     grid-column: 2;
     grid-row: 2;
+    margin-bottom: 0;
 }
 
-.photo .mejiros {
-    display: flex;
-    justify-content: space-between;
-}
 
 .photo .mejiros img {
-    width: 117px;
-    height: 117px;
+    width: 30.84%;
+    height: auto;
 }
 
 .main-text {
+    width: 100%;
     grid-column: 4;
     grid-row: 2;
+    margin: 0;
 }
 
 .main-text .p1 {
@@ -221,43 +224,36 @@ h2 {
 }
 
 .main-text .button_back {
-    width: 50px;
-    border: 1px solid #000;
-    border-radius: 10px;
-    text-align: center;
-    margin-left: auto;
-    margin-top: 10px;
-}
-
-.SNS {
-    margin: 0 auto;
+    width: 14.0%;
 }
 
 .SNS .SNS_Logo {
-    width: 282px;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
+    width: 35%;
+    border: none;
+}
+
+.SNS_Logo img {
+    width: 18%;
 }
 
 .footer {
-    background-color: #aaa;
+    padding-bottom: 50px;
 }
 
 .footer .footer_title {
-    color: #fff;
-    margin: 10px 0 20px 40px;
+    padding-left: 4.79%;
 }
 
 .footer .footer_textbox {
-    margin-left: 40px;
+    padding-left: 0;
+    margin-left: 4.79%;
     display: flex;
-    width: 550px;
+    width: 65.94%;
     justify-content: space-between;
 }
 
 .footer .footer_text {
-    width: 230px;
+    width: 27.57%;
 }
 }
 
