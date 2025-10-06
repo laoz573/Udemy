@@ -1,0 +1,7 @@
+.container {
+    display: grid;
+    width: 800px;
+    grid-template-columns: 180px 1fr;
+    grid-template-rows: 120px 90px;
+}
+
